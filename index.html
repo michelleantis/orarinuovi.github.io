@@ -33,7 +33,13 @@
 <body>
 
     <!-- Questo mostra la tua foto centrata sullo schermo -->
-   <img src="Unknown.jpeg" alt="Gioco della mano">
+   <picture>
+    <source srcset="Unknown.jpeg" type="image/jpeg">
+    <source srcset="unknown.jpeg" type="image/jpeg">
+    <source srcset="Unknown.jpg" type="image/jpeg">
+    <source srcset="unknown.jpg" type="image/jpeg">
+    <img src="Unknown.jpeg" alt="Gioco della mano">
+</picture>
     
     <h1>Hai guardato! 🫵 Guardato e perso!</h1>
 
